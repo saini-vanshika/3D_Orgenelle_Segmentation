@@ -70,9 +70,9 @@ fibsem-organelle-segmentation/
 │   ├── losses.py      # DiceLoss + CombinedDiceCELoss
 │   └── utils.py       # Sliding-window inference, metrics, visualization
 ├── notebooks/
-│   └── random_forest_baseline.ipynb
+│   └──random_forest.ipynb
 └── results/
-    └── crop234_metrics.txt
+    └── crop234_segmentation.png
 ```
 
 > **Model checkpoints** (`models/`) are gitignored and saved locally. They are auto-created by `config.py`.
