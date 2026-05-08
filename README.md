@@ -9,7 +9,7 @@ Vanshika Saini · TU Dresden · February 2025
 
 This project compares classical machine learning and deep learning for multi-class organelle segmentation in Focused Ion Beam Scanning Electron Microscopy (FIB-SEM) volumetric data.
 
-**Dataset:** JRC COS7-1a from the [CellMap 2024 Segmentation Challenge](https://cellmap.janelia.org/)  
+**Dataset:** JRC COS7-1a from the [CellMap 2024 Segmentation Challenge](https://janelia.figshare.com/collections/CellMap_2024_Segmentation_Challenge/7456966/1)  
 **Resolution:** 4 × 4 × 4 nm isotropic  
 **Task:** 8-class voxel segmentation (background + 7 organelle types)
 
@@ -91,7 +91,7 @@ pip install -r requirements.txt
 
 ## Dataset
 
-Download `jrc_cos7-1a` from [OpenOrganelle / CellMap Challenge](https://cellmap.janelia.org/).
+Download `jrc_cos7-1a` from [OpenOrganelle / CellMap Challenge](https://github.com/janelia-cellmap/cellmap-segmentation-challenge).
 
 **Full volume:** 906 × 2184 × 10304 voxels at 4 nm/voxel  
 **Format:** OME-NGFF (Zarr multi-scale)
